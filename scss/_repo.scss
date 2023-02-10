@@ -1,0 +1,63 @@
+@media (max-width:750px) {
+
+  div {
+    .search {
+      width: 350px;
+      height: 45px;
+      font-size: 1.5rem;
+    }
+
+    .list-item {
+      width: 350px;
+      height: 35px;
+      font-size: 1rem;
+    }
+
+  }
+
+}
+
+
+
+
+
+@media (max-width:450px) {
+
+  div {
+    .search {
+      width: 280px;
+      height: 45px;
+      font-size: 1.3rem;
+    }
+
+    .list-item {
+      width: 280px;
+      height: 35px;
+      font-size: 1rem;
+    }
+
+  }
+  
+}
+
+
+@media (max-width:320px) {
+
+  div {
+    .search {
+      width: 240px;
+      height: 40px;
+      padding: 8px;
+      font-size: 1.1rem;
+    }
+
+    .list-item {
+      padding: 0px 10px;
+      width: 240px;
+      height: 30px;
+      font-size: 0.9rem;
+    }
+
+  }
+  
+}
