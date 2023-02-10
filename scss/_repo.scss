@@ -31,7 +31,11 @@
     .search {
       width: 280px;
       height: 45px;
-      font-size: 1.3rem;
+      font-size: 1.1rem;
+    }
+
+    &::placeholder {
+      font-size: 0.8rem;
     }
 
       .visibility {
@@ -56,7 +60,11 @@
       width: 240px;
       height: 40px;
       padding: 8px;
-      font-size: 1.1rem;
+      font-size: 0.7rem;
+    }
+
+    &::placeholder {
+      font-size: 0.7rem;
     }
 
       .visibility {
@@ -68,7 +76,7 @@
         width: 240px;
         height: 30px;
         padding: 0px 10px;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
       }
     }
   }

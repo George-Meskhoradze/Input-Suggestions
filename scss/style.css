@@ -91,7 +91,10 @@ div .visibility .search::placeholder {
   div .search {
     width: 280px;
     height: 45px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+  div::placeholder {
+    font-size: 0.8rem;
   }
   div .visibility {
     width: 280px;
@@ -108,7 +111,10 @@ div .visibility .search::placeholder {
     width: 240px;
     height: 40px;
     padding: 8px;
-    font-size: 1.1rem;
+    font-size: 0.7rem;
+  }
+  div::placeholder {
+    font-size: 0.7rem;
   }
   div .visibility {
     width: 240px;
@@ -118,6 +124,6 @@ div .visibility .search::placeholder {
     width: 240px;
     height: 30px;
     padding: 0px 10px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 }/*# sourceMappingURL=style.css.map */
