@@ -32,7 +32,6 @@ div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*# sourceMappingURL=style.css.map */
 }
 div .search {
   width: 500px;
@@ -46,10 +45,17 @@ div .search {
   padding: 10px;
   font-size: 1.5rem;
 }
-div .list {
+div .visibility {
+  display: block;
+  width: 500px;
+  height: 464px;
+  overflow: hidden;
+  /*# sourceMappingURL=style.css.map */
+}
+div .visibility .list {
   list-style: none;
 }
-div .list-item {
+div .visibility .list-item {
   background: white;
   display: flex;
   padding: 0px 10px;
@@ -60,7 +66,7 @@ div .list-item {
   margin-top: 2px;
   font-size: 1rem;
 }
-div .search::placeholder {
+div .visibility .search::placeholder {
   font-size: 1rem;
   color: var(--black);
 }
@@ -71,7 +77,11 @@ div .search::placeholder {
     height: 45px;
     font-size: 1.5rem;
   }
-  div .list-item {
+  div .visibility {
+    width: 350px;
+    height: 297px;
+  }
+  div .visibility .list-item {
     width: 350px;
     height: 35px;
     font-size: 1rem;
@@ -83,7 +93,11 @@ div .search::placeholder {
     height: 45px;
     font-size: 1.3rem;
   }
-  div .list-item {
+  div .visibility {
+    width: 280px;
+    height: 223px;
+  }
+  div .visibility .list-item {
     width: 280px;
     height: 35px;
     font-size: 1rem;
@@ -96,10 +110,14 @@ div .search::placeholder {
     padding: 8px;
     font-size: 1.1rem;
   }
-  div .list-item {
-    padding: 0px 10px;
+  div .visibility {
+    width: 240px;
+    height: 193px;
+  }
+  div .visibility .list-item {
     width: 240px;
     height: 30px;
+    padding: 0px 10px;
     font-size: 0.9rem;
   }
 }/*# sourceMappingURL=style.css.map */

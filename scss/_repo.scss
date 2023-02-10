@@ -1,20 +1,24 @@
 @media (max-width:750px) {
 
   div {
+    
     .search {
       width: 350px;
       height: 45px;
       font-size: 1.5rem;
     }
+      .visibility {
+        width: 350px;
+        height: 297px;
 
-    .list-item {
-      width: 350px;
-      height: 35px;
-      font-size: 1rem;
+        
+        .list-item {
+        width: 350px;
+        height: 35px;
+        font-size: 1rem;
+      }
     }
-
   }
-
 }
 
 
@@ -30,14 +34,18 @@
       font-size: 1.3rem;
     }
 
-    .list-item {
-      width: 280px;
-      height: 35px;
-      font-size: 1rem;
-    }
+      .visibility {
+        width: 280px;
+        height: 223px;
 
+
+      .list-item {
+        width: 280px;
+        height: 35px;
+        font-size: 1rem;
+      }
+    }
   }
-  
 }
 
 
@@ -51,13 +59,17 @@
       font-size: 1.1rem;
     }
 
-    .list-item {
-      padding: 0px 10px;
-      width: 240px;
-      height: 30px;
-      font-size: 0.9rem;
-    }
+      .visibility {
+        width: 240px;
+        height: 193px;
 
+
+      .list-item {
+        width: 240px;
+        height: 30px;
+        padding: 0px 10px;
+        font-size: 0.9rem;
+      }
+    }
   }
-  
 }
